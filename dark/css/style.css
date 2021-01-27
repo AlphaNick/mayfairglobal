@@ -82,6 +82,9 @@
 @import url('layers.css');
 @import url('navigation.css');
 
+.hide {
+  display: none:!important;
+}
 
 html{
   font-size: 75%;
@@ -111,6 +114,11 @@ body{
   color:#fff;
 }
 
+.custom-list li {
+  list-style-type: disc;
+  margin: 0 0 0 20px;
+}
+
 -webkit-::selection{
     background-color:#c5a47e;
     color:#fff;
@@ -121,7 +129,10 @@ body{
     color:#fff;
 }
 
-
+.services h5 {
+  color: white;
+  font-size: 1.1rem;
+}
 
 /* 1.2 Typography */
 
